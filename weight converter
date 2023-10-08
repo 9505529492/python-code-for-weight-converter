@@ -1,0 +1,15 @@
+print("hii.... I am wieght converter")
+print('choose option')
+print('1: for kgs to pounds')
+print('2: for pounds to kgs')
+c=float(input())
+if c==1:
+    kg=float(input('enter wieght in kgs'))
+    pg=kg*2.205
+    print(pg,"weight in pounds")
+elif c==2:
+    pg=float(input("enter weight in pounds"))
+    kg=pg*0.454
+    print(kg,"weight in kgs")
+else:
+    print("enter correct chio1ce")
